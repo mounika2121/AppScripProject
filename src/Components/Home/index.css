@@ -1,0 +1,248 @@
+.banner-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.banner-heading{
+    font-weight: 400;
+    margin-bottom: 0;
+    letter-spacing: 1px;
+    font-family: Simplon Norm;
+}
+
+.banner-paragraph{
+    width: 35%;
+    font-family: Simplon Norm;
+}
+
+.hr-line-filters{
+    border: 1px solid #E5E5E5;
+    width: 90%;
+}
+
+.filter-hide-show-container{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.filter-products-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.filter-products-container-md{
+    display: none;
+}
+
+.total-items-hide-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.total-items{
+    font-family: Simplon Norm;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: left;
+    color:  #252020;
+    margin-right: 50px;
+}
+
+.select-options{
+    border: none;
+    outline: none;
+}
+
+.filters-bar{
+    width: 1200px;
+    height: 80vh;
+    margin-left: 15px;
+}
+
+.products-and-filter-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.products-and-filters{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.products-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.product-grid{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 90%;
+}
+
+.hr-line-filters-md{
+    border: 1px solid #E5E5E5;
+}
+
+.filters-buttons-in-md{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.hr-line-md{
+    border: 1px solid #E5E5E5;
+    height: 20px;
+}
+
+.filter-btn{
+    background-color: white;
+    border: none;
+
+}
+
+.checkbox-input{
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+}
+
+.customize-label{
+    font-weight: bold;
+}
+
+.ideal-for-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.unselect-all{
+    font-family: Simplon Norm;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+    text-align: left;
+    color: #BFC8CD;
+    text-decoration: underline;
+}
+
+.arrow-btn{
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.hide-filters{
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 768px){
+    .header-container-md{
+        display: block;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .header-container-lg{
+        display: none;
+    }
+
+    .hamburger{
+        margin-right: 15px;
+    }
+    .navigation-btn-container{
+        display: none;
+    }
+    .hr-line{
+        margin-top: 2px;
+    }
+
+    ul{
+        list-style-type: none;
+        padding-inline-start: 0;
+    }
+
+    .navigation-container {
+        position: relative;
+        z-index: 1;
+    }
+    
+    .navigation-btn-container-md {
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: white;
+        padding: 10px;
+        border: 1px solid #ccc;
+        z-index: 2;
+        display: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        display: block;
+        width: 150px;
+        height: 90vh;
+    }
+    .nav-li{
+        margin-bottom: 20px;
+    }
+    .close-btn-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    .close-button{
+        background-color: white;
+        border: none;
+    }
+    .banner-paragraph{
+        width: 95%;
+    }
+    .banner-heading{
+        font-weight: 400;
+        text-align: center;
+        font-size: 22px;
+    }
+    .filter-products-container-md{
+        display: block;
+    }
+    .filter-products-container{
+        display: none;
+    }
+    .filters-bar{
+        display: none;
+    }
+    .product-grid{
+        width: 100%;
+    }
+}

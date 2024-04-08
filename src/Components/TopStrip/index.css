@@ -1,0 +1,32 @@
+.strip{
+    height: 10px;
+}
+
+.strip-container{
+    background-color: black;
+    height: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.strip-container-sm-device{
+    display: none;
+}
+
+@media screen and (max-width: 360px){
+    .strip-container-sm-device{
+        display: block;
+        background-color: black;
+        height: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .strip-container{
+        display: none;
+    }
+}

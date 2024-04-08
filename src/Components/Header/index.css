@@ -1,0 +1,46 @@
+.logo{
+    height: 22px;
+    
+}
+
+.header-icons{
+    height: 18px;
+}
+
+.logo-title{
+    letter-spacing: 1px;
+    font-weight: bold;
+   
+}
+
+.header-container-lg{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header-container-md{
+    display: none;
+}
+
+.navigation-buttons{
+    background-color: white;
+    border: none;
+    font-weight: bold;
+    margin-right: 35px;
+}
+
+.navigation-btn-container{
+    text-align: center;
+}
+
+.hr-line{
+    border: 1px solid #E5E5E5;
+    margin-top: 15px;
+}
+
+.navigation-btn-container-md{
+    display: none;
+}
+

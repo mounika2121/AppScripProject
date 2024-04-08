@@ -1,0 +1,127 @@
+.footer-container{
+    background-color: black;
+    color: white;
+    padding-top: 45px;
+    padding-bottom: 25px;
+    font-family: Simplon Norm;
+}
+
+.footer-for-lg-divices{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.footer-lg-first-part{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer-email-input{
+    height: 40px;
+    width: 400px;
+    padding-left: 15px;
+    margin-right: 20px;
+    color: gray;
+    outline: none;
+}
+
+.subscribe-btn{
+    height: 40px;
+    width: 150px;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.subscribe-btn:hover{
+    background-color: aquamarine;
+    color: black;
+}
+
+.subscribe-input-button{
+    display: flex;
+}
+
+.footer-usa-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.footer-icons{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: black;
+    border: 1px solid white;
+    margin-right: 20px;
+}
+
+.footer-transaction{
+    font-size: 12px;
+}
+
+.footer-for-md-divices{
+    display: none;
+}
+
+.copyright-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.amount-like-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media screen and (max-width: 768px){
+    .footer-for-md-divices{
+        display: block;
+    }
+    .footer-for-lg-divices{
+        display: none;
+    }
+    .footer-email-input{
+        width: 150px;
+        margin-right: 5px;
+    }
+    .subscribe-btn{
+        height: 40px;
+        width: 90px;
+        font-size: 12px;
+    }
+    .hr-line-footer{
+        border: 1px solid #E5E5E5;
+        width: 90%;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+
+    .footer-for-md-divices{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-lg-first-part{
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .cards-image{
+        width: 200px;
+    }
+}
